@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+#sign_in{
+	float: left;
+}
+
+h2{
+	display: inline-block;
+	text-decoration: none;
+	color: #4a4a4a;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+	font-size: 1.25rem;
+	font-weight: normal;
+	margin-left: 50px;
+}
+
+#date{
+	float: right;
+	margin-right: 50px;
+}
+
+body{
+	padding: 1px;
+	background: #FFFFFF;
+}
+
+#logo img{
+	height: 35px;
+	width: auto;
+	padding-right: 20px;
+	margin-left: 50px;
+}
+
+#logo{
+	float:left;
+}
+
+#menu{
+	text-align: right;
+	float: right;
+	margin:0 auto;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #000000
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+    text-decoration: none;
+    padding: .462em 8px .308em;
+    line-height: 1.692em;
+    min-height: 1.692em;
+}
+
+#hero{
+	width: 50%;
+	margin-left: 50px;
+}
+#hero img{
+	width: 100%;
+	height: auto;
+}
+
+.featured-image{
+	float: right;
+	width: 10%;
+	margin: 0 0 0 0;
+
+}
+/*
+.featured-image.last{
+	margin: 0 0 0 .25%;
+*/
+}
+
+.featured-image img{
+	width: 100%;
+	height: 25%;
+}
+
+#footer{
+	margin: 20px;
+	padding: 10px;
+	border-top: 1px solid #000000;
+}
+
+#address, #copyright{
+	float: left;
+	width: 50%
+}
+
+#copyright{
+	text-align: right;
+}
